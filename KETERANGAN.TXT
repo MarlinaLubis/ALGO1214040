@@ -1,0 +1,10 @@
+------------------------------------------------------------------------
+Dalam menghubungkan sebuah aplikasi greenfoot dengan database maka diperlukan sebuah koneksi JDBC.
+Koneksi JDBC ini berfungsi sebagai perantara yang menghubungkan antara java dengan database mysql.
+Class koneksi berfungsi untuk mengakses data dari database dan sebagai penghubung antara aplikasi dengan database.
+class bee berfungsi untuk memerintahkan bee agar dapat bergerak ke kiri, kanan, atas dan bawah.
+Untuk mengakses JDBC ini, kita perlu mengimport beberapa komponen yaitu java.sql.Connection, java.sql.DriverManager, java.sql.Statement, dan java.sql.ResultSet.
+Kemudian kita membuat tabel di database, misalnya nama tabelnya arah. Kemudian membuat kolom id dan kunci. Supaya datanya dapat terhubung pada aplikasi.
+Ketika kita menginputkan data di database, maka di aplikasinya dapat terinput. misalnya kita menginputkan data dengan nilai "d" maka actor bee akan bergerak ke kanan.
+Begitu juga ketika kita mengganti menjadi "a" maka actor bee akan bergerak ke kanan. Begitu juga seterusnya.
+------------------------------------------------------------------------
